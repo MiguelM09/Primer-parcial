@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body{
+            background-color: #4e81ee;
+
+        }
+
+        #father{
+            height: 100vh;
+            width: 800px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+            /* display: grid;
+            place-items: center; */
+        }
+
+        #son, #son_one, #son_two, #son_three{
+            width: 200px;
+            height: 250px;
+            background-color: #ffff;
+            transform: translate(20px, -10px);
+        }
+
+        #son_one{
+            background-color: #ffff;
+            
+        }
+        #son_two{
+            background-color: #ffffff;
+        }
+        #son_three{
+            background-color: #ffffff;
+        }
+        .imagen{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 8px;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="content_container">
+            <div id="father">
+                <div id="son_one"></div>
+                <div id="son_two"></div>
+                <div id="son_three">
+                    <div class="imagen">
+                        <img src="https://img.freepik.com/fotos-premium/ilustracion-joystick-gamepad-controlador-juegos-cyberpunk_691560-5812.jpg" width="50px" height="50px" alt=""></div>
+                        <h1>Basic</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
